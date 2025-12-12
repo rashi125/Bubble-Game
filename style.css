@@ -1,0 +1,91 @@
+*{
+    margin:0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+#main{
+    display:flex;
+    width:100%;
+    height:100%;
+    background-color:rgb(184, 233, 184);
+    justify-content:center;
+    align-items:center;
+
+}
+#panel
+{
+    overflow: hidden;
+    width:80%;
+    height:80%;
+    background-color:rgb(248, 249, 248);
+    border-radius:10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+#ptop
+{
+    background-color:green;
+    width:100%;
+    height:20%;
+    align-items:center;
+ justify-content:space-around;
+  padding:0px 10% ;
+ display:flex;
+ color:white;
+ font-size: 18px;
+ font-weight: bold;
+}
+.ele
+{
+  
+    display:flex;
+    width:10%;
+    /* min-width: 50px; Ensure it doesn't become too small */
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    align-items:center;
+    gap:10px;
+    padding:10px 10px;;
+}
+.box
+{
+    color:black;
+    border-radius:10px;
+    background-color:white;
+    padding:10px 20px;
+    display: inline-block;  /*Ensures proper spacing */
+    text-align:center;
+    font-weight:400;
+    font-size:30px;
+}
+#pbottom
+{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    padding:20px;
+    height:80%;
+    width:100%; 
+    text-align:center;
+    justify-content:center;
+}
+.bubble
+{
+    border-radius:50%;
+    background-color:green;
+    align-items:center;
+    justify-content:center;
+    height:40px;
+    width:40px;
+    color:white;
+    display:flex;
+}
+.bubble-hover
+{
+    cursor:pointer;
+    background-color: beige;
+}
